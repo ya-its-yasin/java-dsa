@@ -1,0 +1,36 @@
+
+chaining
+-> chaining is a wonderful way of building hash table
+-> hash table is created by list of lists..
+-> if collision happens.. then the values are added in the back of the list.
+
+open addressing
+-> linear probing
+-> quad probing
+-> double hashing
+
+linear hashing
+-> does hash function and finds location to store and goes there
+	if location empty then places there..
+	else checks for next location, and so on linearly..
+		same happens while search operation.
+
+Quad probing
+-> its somewhat like liniear hashing.
+-> it moves to next location not linearly, but a controlled level of jump
+
+double hashing
+-> its efficient than above two methods 
+-> it avoids clustering
+-> hash(key,i) = (h1(key) + ih2(key)) % m
+
+
+dif between chaining and open adddressing
+-> hash table never fills ->table may fill and need to resize
+-> poor chaching -> cache friendly
+-> best if no of keys are unknown ->best if no of keys are known prior
+
+some examples.. check
+1. ZeroSubArr.java
+2. SumSubArray.java
+3. LongSubArr.java
