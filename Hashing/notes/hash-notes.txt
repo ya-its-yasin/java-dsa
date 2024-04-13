@@ -1,4 +1,20 @@
 
+
+Chaining:The idea is to make each cell of the hash table point to a linked list of records that have the same hash function value. Chaining is simple, but it requires additional memory outside the table.
+
+Open Addressing: In open addressing, all elements are stored in the hash table itself. Each table entry contains either a record or NIL. When searching for an element, we one by one examine the table slots until the desired element is found or it is clear that the element is not present in the table.
+
+ m = Number of slots in the hash table
+ n = Number of keys to be inserted in the hash table
+ 
+ Load factor α = n/m  ( < 1 )
+
+ Expected time to search/insert/delete < 1/(1 - α) 
+
+ So Search, Insert and Delete take (1/(1 - α)) time
+
+-------------
+
 chaining
 -> chaining is a wonderful way of building hash table
 -> hash table is created by list of lists..
@@ -25,10 +41,10 @@ double hashing
 -> hash(key,i) = (h1(key) + ih2(key)) % m
 
 
-dif between chaining and open adddressing
--> hash table never fills ->table may fill and need to resize
--> poor chaching -> cache friendly
--> best if no of keys are unknown ->best if no of keys are known prior
+dif between chaining 		and 	 open adddressing
+-> hash table never fills	 		->table may fill and need to resize
+-> poor chaching 					->cache friendly
+-> best if no of keys are unknown 	->best if no of keys are known prior
 
 some examples.. check
 1. ZeroSubArr.java

@@ -4,7 +4,7 @@
 count distinct elements
 
 traverse each element and add it in a hashset, 
-the get the size of hashste, it gives us unique count
+and get the size of hashset, it gives us unique count
 
 */
 
