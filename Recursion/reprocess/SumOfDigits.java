@@ -7,7 +7,7 @@ class SumOfDigits
 	static int getSum(int n)
 	{
 		if(n<=9)
-			return 1;
-		return getSum(n/10) + (n%10);
+			return n;
+		return getSum(n/10) + n%10;
 	}
 }

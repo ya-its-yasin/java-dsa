@@ -1,3 +1,9 @@
+/*
+find if palindrome or not
+
+value should be provided in cmd line args
+*/
+
 class Palindrome
 {
 	public static void main(String as[])
@@ -6,7 +12,7 @@ class Palindrome
 	}
 	static boolean isPalindrome(String s, int x, int y)
 	{
-		if(x==y)
+		if(x>=y)
 			return true;
 		if(s.charAt(x)==s.charAt(y) && isPalindrome(s,x+1,y-1))
 			return true;

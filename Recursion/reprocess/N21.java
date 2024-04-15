@@ -9,7 +9,7 @@ class N21
 	{
 		if(n==0)
 			return;
-		System.out.print(n+" ");
+		System.out.println(n);
 		printNum(n-1);
 	}
 }

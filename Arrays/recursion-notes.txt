@@ -1,0 +1,17 @@
+
+a function is recursive,  if it calls itslef directly or indirectly.
+
+
+prints binary value of a number:
+decimal to binary conversion
+
+void fun(){
+	if(n==0)
+		return;
+	fun(n/2);
+	print(n%2); 
+}
+
+Tail recuursion
+-> when last line of the cuunf is a recursive call.
+-> this executes faster than non-tail functions.
