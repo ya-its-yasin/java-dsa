@@ -17,3 +17,17 @@ public class toh
 		findtoh(n-1, b, a, c, ++cnt);
 	}
 }
+
+/*
+
+ public long toh(int n, int from, int to, int aux) {
+        if(n==1){
+            System.out.println("move disk "+n+" from rod "+ from + " to rod " + to);
+            return 1;
+        }
+        long t = 1 + toh(n-1, from, aux, to);
+        System.out.println("move disk "+n+" from rod "+ from + " to rod " + to);
+        return t + toh(n-1, aux, to, from);
+    }
+
+*/
