@@ -1,0 +1,3 @@
+time complexinty of binary search 
+for successfull search is O(log n)
+for unsuccessfull search is Theta log n

@@ -1,0 +1,17 @@
+Sorting
+
+Arr = {{"Anil", 50}, {"Ayan", 80}, {"Piyush", 50}, {"Ramesh", 80}}
+
+stable sorting:
+sorting objects in an order.. if two or more objects has same values, then sort them in an order inside themselves..
+example : bubble sort, insertion sort, merge sort etc
+
+arr = {{"Anil",50}, {"Piyush",50}, {"Ayan", 80}, {"Ramesh", 80}}
+
+
+unstable sorting:
+sorting just occur for one value of an object and do not care about objects having same value.
+ex : selection sort, quick sort, heap sort.
+
+arr = {{"Piyush",50}, {"Anil",50}, {"Ayan", 80}, {"Ramesh", 80}}
+any order of names are possible but values will be in sorted way

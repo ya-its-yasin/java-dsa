@@ -4,8 +4,13 @@ Move Zeros to End
 approach:
 haev two pointers from the begining
 traverse one by one..
-if a 0 is found.. then keep one pointer there itself and move th anothe rpointer to the nect posuition uintill we fins a non zero element
-once no zero element is found, then place the value of 3nd pointer to the first pointer and move both pointers one by one again and ciontue the proces..
+if a 0 is found.. then keep one pointer there itself 
+and move th anothe rpointer to the nect posuition 
+uintill we fins a non zero element
+
+once no zero element is found, 
+then place the value of 3nd pointer to the first pointer 
+and move both pointers one by one again and ciontue the proces..
 
 */
 
